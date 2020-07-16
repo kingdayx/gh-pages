@@ -105,6 +105,10 @@ img {
   margin: 100px;
 }
 
+a:hover {
+  color: red;
+}
+
 h1 h2 {
   padding: 20px 0 0 0;
   margin: 20px;
