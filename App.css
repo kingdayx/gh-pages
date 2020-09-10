@@ -82,13 +82,51 @@ skills
 .column {
   margin: 100px;
 }
-
-.para {
+.parag {
   display: block;
+  justify-content: center;
+  align-self: center;
+}
+.h2 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proj {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.link {
+  margin-top: 30px;
+  margin-right: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  margin-left: 20px;
+  list-style-type: none;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.para {
+  display: flex;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  flex-direction: row;
 }
 
 .logo {
@@ -144,6 +182,26 @@ h1 h2 {
   padding: 20px 0 0 0;
   margin: 20px;
 }
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
 
 * {
   padding: 0;
@@ -163,5 +221,13 @@ h1 h2 {
 @media all and (max-width: 760px) {
   .logo {
     font-size: 43px;
+  }
+}
+@media all and (max-width: 639px) {
+  .logo {
+    font-size: 30px;
+  }
+  .navbar {
+    margin-top: 10px;
   }
 }
